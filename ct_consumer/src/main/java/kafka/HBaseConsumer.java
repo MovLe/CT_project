@@ -11,7 +11,7 @@ import java.util.Arrays;
 
 /**
  * @ClassName HBaseConsumer
- * @MethodDesc: TODO HBaseConsumer功能介绍
+ * @MethodDesc: kafka消费者
  * @Author Movle
  * @Date 6/27/20 8:35 下午
  * @Version 1.0
