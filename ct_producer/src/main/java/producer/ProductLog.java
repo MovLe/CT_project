@@ -173,7 +173,7 @@ public class ProductLog {
     }
 
     public static void main(String[] args) {
-        args = new String[]{"/Users/macbook/TestInfo/calllog3.csv"};
+        //args = new String[]{"/Users/macbook/TestInfo/calllog3.csv"};
         if (args == null || args.length <= 0) {
             System.out.println("没写路径");
             return;
