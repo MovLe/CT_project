@@ -17,7 +17,7 @@ import java.util.TreeSet;
 
 /**
  * @ClassName HBaseUtil
- * @MethodDesc: TODO HBaseUtil功能介绍
+ * @MethodDesc: HBase的工具类
  * @Author Movle
  * @Date 6/27/20 8:40 下午
  * @Version 1.0
