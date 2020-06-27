@@ -86,7 +86,7 @@ public class HBaseUtil {
         }
 
         //添加协处理器
-        //htd.addCoprocessor("hbase.CalleeWriteObserver");
+        htd.addCoprocessor("hbase.CalleeWriteObserver");
         //创建表
         admin.createTable(htd,genSplitKeys(regions));
         //关闭对象

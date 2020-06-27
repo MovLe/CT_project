@@ -49,6 +49,9 @@
          <name>hbase.master.maxclockskew</name>
          <value>180000</value>
     </property>
-
-
+    <!--HBase的协处理器-->
+    <property>
+        <name>hbase.coprocessor.region.classes</name>
+        <value>hbase.CalleeWriteObserver</value>
+    </property>
 </configuration>
